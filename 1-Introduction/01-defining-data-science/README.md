@@ -104,7 +104,7 @@ The first step is to collect the data.  While in many cases it can be a straight
 </dd>
 <dt>2) Data Storage</dt>
 <dd>
-Storing data can be challenging, especially if we are talking about big data.  When deciding how to store data, it makes sense to anticipate the way you would to query the data in the future.  There are several ways data can be stored:
+Storing data can be challenging, especially if we are talking about big data.  When deciding how to store data, it makes sense to anticipate the way you would want to query the data in the future.  There are several ways data can be stored:
 <ul>
 <li>A relational database stores a collection of tables, and uses a special language called SQL to query them.  Typically, tables are organized into different groups called schemas.  In many cases we need to convert the data from original form to fit the schema.</li>
 <li><a href="https://en.wikipedia.org/wiki/NoSQL">A NoSQL</a> database, such as <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=academic-31812-dmitryso">CosmosDB</a>, does not enforce schemas on data, and allows storing more complex data, for example, hierarchical JSON documents or graphs. However, NoSQL databases do not have the rich querying capabilities of SQL, and cannot enforce referential integrity, i.e. rules on how the data is structured in tables and governing the relationships between tables.</li>
